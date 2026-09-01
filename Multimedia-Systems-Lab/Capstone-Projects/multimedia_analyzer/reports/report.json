@@ -1,0 +1,75 @@
+[
+  {
+    "media_type": "IMAGE",
+    "file_name": "image.jpg",
+    "file_path": "D:\\IC2K2283-MS-SHOBHIT\\Multimedia-Systems-Lab\\multimedia_analyzer\\samples\\image.jpg",
+    "file_size_bytes": 82773,
+    "file_format": "JPEG",
+    "width": 1280,
+    "height": 550,
+    "resolution": "1280 x 550 px",
+    "channels": 3,
+    "color_mode": "RGB",
+    "dpi": "N/A",
+    "data_type": "uint8",
+    "pixel_range": "0..255",
+    "exif": {
+      "camera": "N/A",
+      "date_taken": "N/A",
+      "orientation": "N/A",
+      "raw_tags": {}
+    }
+  },
+  {
+    "media_type": "AUDIO",
+    "file_name": "song.wav",
+    "file_path": "D:\\IC2K2283-MS-SHOBHIT\\Multimedia-Systems-Lab\\multimedia_analyzer\\samples\\song.wav",
+    "file_size_bytes": 529244,
+    "container": "WAV (Waveform Audio File Format)",
+    "codec": "PCM (Pulse Code Modulation)",
+    "channels": "2 (Stereo)",
+    "channel_count": 2,
+    "sample_rate": "44100 Hz (44.1 kHz)",
+    "sampling_rate_hz": 44100,
+    "bit_depth": "16-bit",
+    "total_frames": "132,300",
+    "duration": "3.00 s (00:03.00)",
+    "duration_seconds": 3.0,
+    "bitrate": "1411.20 kbps",
+    "bitrate_kbps": 1411.2,
+    "tags": {}
+  },
+  {
+    "media_type": "VIDEO",
+    "file_name": "video.mp4",
+    "file_path": "D:\\IC2K2283-MS-SHOBHIT\\Multimedia-Systems-Lab\\multimedia_analyzer\\samples\\video.mp4",
+    "file_size_bytes": 1681774,
+    "container": "MP4 (Brand: mp42)",
+    "duration": "7.27 s (00:07.27)",
+    "duration_seconds": 7.266666666666667,
+    "video": {
+      "resolution": "1280 x 720 (16:9)",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "29.86 FPS",
+      "fps": 29.862385321100916,
+      "bit_rate": "1790.35 kbps",
+      "bitrate_kbps": 1790.348256880734,
+      "codec": "H.264 / AVC (avc1)"
+    },
+    "audio": {
+      "has_audio": true,
+      "codec": "AAC (mp4a)",
+      "channels": "2 (Stereo)",
+      "sampling_rate": "44100 Hz (44.1 kHz)",
+      "bit_rate": "57.18 kbps"
+    },
+    "metadata": {
+      "creation_time": "2026-08-12 20:32:39",
+      "total_frames": "217 frames",
+      "overall_bitrate": "1851.49 kbps",
+      "subtitles": "None found",
+      "subtitle_list": []
+    }
+  }
+]

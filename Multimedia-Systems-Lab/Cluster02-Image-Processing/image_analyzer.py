@@ -2,7 +2,16 @@ import os
 import cv2
 from PIL import Image, ExifTags
 
-image_path = r"datasets/universe.jpeg"
+import sys
+
+possible_paths = [
+    r"datasets/universe.jpeg",
+    r"../datasets/universe.jpeg",
+    os.path.join(os.path.dirname(__file__), "..", "datasets", "universe.jpeg")
+]
+default_path = next((p for p in possible_paths if os.path.exists(p)), "datasets/universe.jpeg")
+image_path = sys.argv[1] if len(sys.argv) > 1 else default_path
+
 img = cv2.imread(image_path)
 
 if img is None:
